@@ -1,0 +1,113 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-body {
+    align-items: center;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-login {
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #00000035; /* eixo-x(right) eixo-Y(botton) blur */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 35px;
+    width: 435px;
+}
+
+.card-login > h1 {
+    color: #59b4e1;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-login > form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area-entradas {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 1rem 0;
+}
+
+.area-entradas > label {
+    color: #334257;
+}
+
+.area-entradas > label > input {
+    background: rgba(255, 255, 255, 0.5);
+    border: solid 2px #59b4e1;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px #00000035;
+    box-sizing: border-box;
+    color: #334257; 
+    display: block;
+    margin: 5px 0;
+    outline: none;
+    padding: 10px;
+    width: 25vw;
+}
+
+.area-entradas > label > input::placeholder {
+    color: #33425794;
+}
+
+#enviar {
+    background-color: #59b4e1;
+    border: solid 2px #59b4e1;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px #00000035;
+    color: #fdffffde;
+    cursor: pointer; 
+    font-size: 15px;
+    font-weight: 700;
+    margin: 25px 0 0 5px; 
+    outline: none;
+    padding: 16px 0;
+    width: 100%;
+}
+
+#enviar:hover {
+    background-color: white;
+    color: #59b4e1;
+}
+
+h2 { 
+    color: #59b4e1;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 45vh;
+    margin-left: 35vw;
+}
+
+a {
+    display: block;
+    background-color: #ff6961;
+    border: solid 2px #ff6961;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px #00000035;
+    color: #fdffffde; 
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 0 47.5vw; 
+    outline: none;
+    padding: 10px 14px;
+    width: 4.5rem;
+}
+
+a:hover {
+    background-color: white;
+    color: #ff6961;
+}
